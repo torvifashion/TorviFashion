@@ -1,0 +1,6 @@
+{
+  "name": "Torvi Fashion",
+  "description": "A modern, premium e-commerce website for Torvi Fashion, a ladies' fashion store focused on premium handbags and accessories, complete with customer and admin portals, product filters, a cart/wishlist system, order tracking, and integrated checkout simulations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

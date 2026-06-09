@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&family=Plus+Jakarta+Sans:wght@300..800&family=JetBrains+Mono:wght@400;700&family=Cinzel:wght@400;600;700&family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Space Grotesk", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-cinzel: "Cinzel", serif;
+  --font-bodoni: "Bodoni Moda", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  
+  --color-brand-cream: #FFFFFF;
+  --color-brand-charcoal: #000000;
+  --color-brand-gold: #D4AF37;
+  --color-brand-pink-light: #FCE4EC;
+  --color-brand-pink-dark: #E91E63;
+  --color-brand-border: #E5E7EB;
+  --color-brand-tan: #E8E1DE;
+  
+  /* Dark mode mappings */
+  --color-brand-dark-bg: #FFFFFF;
+  --color-brand-dark-card: #FFFFFF;
+  --color-brand-dark-border: #E5E7EB;
+}
+
+/* Custom baseline styling for the Geometric Balance theme */
+body {
+  background-color: #FAF9F6; /* Warm high-contrast boutique off-white */
+  color: #000000; /* Rich solid luxury black */
+}
+
+body.menu-open {
+  overflow: hidden !important;
+}
+
+/* Global text color behavior */
+body, p, h1, h2, h3, h4, h5, h6, label {
+  color: #000000;
+}
+
+/* Ensure all gray/zinc/neutral/stone/slate text utility classes are mapped to full black for absolute high contrast legibility as requested, except checkout page */
+[class*="text-zinc-"]:not(.checkout-secondary-text):not(.checkout-page-root *), 
+[class*="text-neutral-"]:not(.checkout-secondary-text):not(.checkout-page-root *), 
+[class*="text-gray-"]:not(.checkout-secondary-text):not(.checkout-page-root *), 
+[class*="text-slate-"]:not(.checkout-secondary-text):not(.checkout-page-root *) {
+  color: #000000 !important;
+}
+
+/* Ensure inputs, select forms and textareas keep highly legible light backgrounds and black text */
+input, select, textarea {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border-color: #D4AF37 !important;
+}
+
+/* Ensure hover interactions are beautifully preserved with brand gold when hovered */
+.text-brand-gold, .text-\[\#D4AF37\], .text-brand-gold *,
+.hover\:text-brand-gold:hover, .hover\:text-brand-gold:hover *,
+.group:hover .group-hover\:text-brand-gold,
+.group:hover .group-hover\:text-brand-gold * {
+  color: #D4AF37 !important;
+}
+
+.text-brand-pink-dark, .text-brand-pink-dark * {
+  color: #E91E63 !important;
+}
+
+/* Retain high-contrast white text for overlay elements, status badges and dark background actions */
+.text-white, 
+.text-white *,
+.bg-brand-charcoal, .bg-brand-charcoal *, 
+.bg-black, .bg-black *, 
+.bg-zinc-800, .bg-zinc-805 *, 
+.bg-neutral-800, .bg-neutral-805 *, 
+.bg-neutral-900, .bg-neutral-909 *, 
+.bg-[#1A1A1A] *,
+button.text-white, span.text-white, button.text-white *, span.text-white * {
+  color: #FFFFFF !important;
+}
+
+/* Resolve outline headers/buttons or elements with black borders to be filled with solid black and white text */
+.border-brand-charcoal, .border-black {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+.border-brand-charcoal *, .border-black * {
+  color: #FFFFFF !important;
+}
+
+/* Scrollbar styling for high-end boutique aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8E1DE;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #2D2826;
+}
+
+/* 
+==========================================================
+Torvi Premium Checkout Design Protocol Elements (Overriding Dark/Black Backgrounds)
+==========================================================
+*/
+
+.checkout-page-root {
+  background-color: #FAF9F6 !important;
+}
+
+/* Ensure ALL checkout containers, payment cards, panels, info boxes, summary boards are forced to pure white with gold/zinc borders, beautiful soft cornering, and drop shadow */
+.checkout-card,
+.checkout-page-root .checkout-card,
+.checkout-page-root div.bg-zinc-900,
+.checkout-page-root div.dark\:bg-zinc-900,
+.checkout-page-root div.bg-zinc-950,
+.checkout-page-root div.dark\:bg-zinc-950,
+.checkout-page-root .bg-white,
+.checkout-page-root .dark\:bg-zinc-900,
+.checkout-page-root .dark\:bg-zinc-950 {
+  background: #FFFFFF !important;
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #EAEAEA !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Force pure white background on any payment provider modal/overlay window as well */
+.payment-modal-card {
+  background: #FFFFFF !important;
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #EAEAEA !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Typography styles inside the checkout hierarchy */
+.checkout-primary-text,
+.checkout-page-root .checkout-primary-text {
+  color: #000000 !important;
+}
+
+.checkout-secondary-text,
+.checkout-page-root .checkout-secondary-text {
+  color: #555555 !important;
+}
+
+/* Preserve black background and text-white only for the primary checkout submit button */
+.checkout-page-root .bg-black,
+.checkout-page-root button[type="submit"],
+.checkout-page-root #checkout-track-btn,
+.checkout-page-root #cart-coupon-apply-btn,
+.checkout-page-root #cart-checkout-action-btn {
+  background-color: #000000 !important;
+  background: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.checkout-page-root .bg-black *,
+.checkout-page-root button[type="submit"] *,
+.checkout-page-root #checkout-track-btn *,
+.checkout-page-root #cart-coupon-apply-btn *,
+.checkout-page-root #cart-checkout-action-btn * {
+  color: #FFFFFF !important;
+}
+
+/* Overwrite inputs in checkout-page-root to have EAEAEA borders, white bg, black text */
+.checkout-page-root input,
+.checkout-page-root select,
+.checkout-page-root textarea {
+  background-color: #FFFFFF !important;
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #EAEAEA !important;
+  border-radius: 8px !important;
+}
+
+.checkout-page-root input:focus,
+.checkout-page-root select:focus,
+.checkout-page-root textarea:focus {
+  border-color: #D4AF37 !important;
+  outline: none !important;
+}

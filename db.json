@@ -1,0 +1,290 @@
+{
+  "products": [
+    {
+      "id": "elegance-p1",
+      "name": "Aurelia Clasp Handbag",
+      "description": "Embody timeless luxury with our signature Aurelia Handbag. Handcrafted from top-grain rose-blush calfskin leather and finished with bespoke polished gold metal hardware. Featuring an organized interior lined with silk, a zipper pocket, and an adjustable shoulder strap for dual wear.",
+      "category": "Handbags",
+      "price": 240,
+      "rating": 4.8,
+      "reviewCount": 38,
+      "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80",
+      "isBestSeller": true,
+      "isNewArrival": false,
+      "isFeatured": true,
+      "stock": 12,
+      "colors": [
+        "Blush Pink",
+        "Enigma Black",
+        "Pure Ivory"
+      ],
+      "features": [
+        "100% genuine calfskin leather",
+        "Soft luxurious silk-blend inner lining",
+        "Interiors: 1 phone slot, 1 card drawer, 1 main compartment",
+        "Polished 18k gold-plated brass security buckle"
+      ],
+      "reviews": [
+        {
+          "id": "r1",
+          "userName": "Sofia K.",
+          "rating": 5,
+          "comment": "Absolutely mesmerizing handbag! The leather smells divine and the pink shade is perfect.",
+          "date": "2026-05-15"
+        },
+        {
+          "id": "r2",
+          "userName": "Emma G.",
+          "rating": 4,
+          "comment": "Stunning design, highly elegant. Good space for cards and makeup essential kits.",
+          "date": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "id": "elegance-p2",
+      "name": "Chevron Quilted Shoulder Bag",
+      "description": "Exude sophistication on every occasion. This shoulder bag features rich, chevron-quilted nappa leather, structured panels, and a convertible golden slide chain strap. The dark metallic finish lends a contemporary edge to classic feminine grace.",
+      "category": "Shoulder Bags",
+      "price": 185,
+      "rating": 4.9,
+      "reviewCount": 42,
+      "imageUrl": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&auto=format&fit=crop&q=80",
+      "isBestSeller": true,
+      "isNewArrival": true,
+      "isFeatured": false,
+      "stock": 15,
+      "colors": [
+        "Noir Black",
+        "Crimson Velvet",
+        "Gold Dust"
+      ],
+      "features": [
+        "High density premium structured nappa leather",
+        "Multi-way sliding chain strap (shoulder/crossbody)",
+        "Interior slide divider with zipped divider wall",
+        "Secure magnetic front flap with golden crest monogram"
+      ],
+      "reviews": [
+        {
+          "id": "r3",
+          "userName": "Olivia H.",
+          "rating": 5,
+          "comment": "Perfect addition for dinner dates. The chain feels sturdy and high-quality.",
+          "date": "2026-05-10"
+        }
+      ]
+    },
+    {
+      "id": "elegance-p3",
+      "name": "Sienna Workday Tote",
+      "description": "Designed for the modern, multi-passionate woman. Combining spacious proportions with refined minimalist sensibilities, the Sienna Tote is crafted from premium textured canvas bounded by waterproof protective leather trimming. Easily fits a 14-inch laptop, tablets, and journals.",
+      "category": "Tote Bags",
+      "price": 135,
+      "rating": 4.6,
+      "reviewCount": 29,
+      "imageUrl": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600&auto=format&fit=crop&q=80",
+      "isBestSeller": false,
+      "isNewArrival": false,
+      "isFeatured": true,
+      "stock": 8,
+      "colors": [
+        "Sienna Beige",
+        "Classic Navy",
+        "Charcoal Onyx"
+      ],
+      "features": [
+        "Durable weave canvas & water-resistant polyurethane protection",
+        "Accommodates tablets, books, cosmetic pouches, and up to 14\" laptops",
+        "Double-handle carry with luxurious leather hand protection padding",
+        "Stained wood bottom feet studs for damage prevention"
+      ],
+      "reviews": [
+        {
+          "id": "r4",
+          "userName": "Chloe M.",
+          "rating": 4,
+          "comment": "Extremely roomy. I take it to the office and cafes every day.",
+          "date": "2026-05-18"
+        }
+      ]
+    },
+    {
+      "id": "elegance-p4",
+      "name": "Belle Mini Crossbody",
+      "description": "Compact size, grand impressions. The Belle Crossbody is a delicate companion for walks and strolls. Crafted from pebble-textured vegan leather, it includes double secure zip compartments to keep your phone, keys, and lipsticks snug.",
+      "category": "Crossbody Bags",
+      "price": 95,
+      "rating": 4.7,
+      "reviewCount": 19,
+      "imageUrl": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&auto=format&fit=crop&q=80",
+      "isBestSeller": false,
+      "isNewArrival": true,
+      "isFeatured": false,
+      "stock": 25,
+      "colors": [
+        "Blush Pink",
+        "Caramel Tan",
+        "Soft Sage"
+      ],
+      "features": [
+        "Pebble grain cruelty-free vegan leather outer",
+        "Dual zipper main compartments",
+        "Adjustable tactile matching cross-body strap",
+        "Lightweight design weighing under 300g"
+      ],
+      "reviews": [
+        {
+          "id": "r5",
+          "userName": "Zoe R.",
+          "rating": 5,
+          "comment": "Sweetest little bag! Soft pink matches all my summer outfits.",
+          "date": "2026-05-22"
+        }
+      ]
+    },
+    {
+      "id": "elegance-p11",
+      "name": "Evelyn Suede Satchel",
+      "description": "Understated modern vintage. Crafted from butter-soft vegan camel suede and trimmed with beautiful rigid saddle leather accents. Features dual compartments, top handles, and a detachable long shoulder belt.",
+      "category": "Handbags",
+      "price": 195,
+      "rating": 4.7,
+      "reviewCount": 16,
+      "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80",
+      "isBestSeller": false,
+      "isNewArrival": true,
+      "isFeatured": true,
+      "stock": 5,
+      "colors": [
+        "Camel Suede",
+        "Forest Green Suede"
+      ],
+      "features": [
+        "Soft luxurious brushed vegan suede microfiber flat",
+        "Rigid vegetable tanned trim base detailing",
+        "Dual internal secure pockets with heavy metal sliders",
+        "Adjustable and detachable matching crossbody strap"
+      ],
+      "reviews": []
+    },
+    {
+      "id": "elegance-p12",
+      "name": "Ophelia Evening Envelope",
+      "description": "Steal the spotlight. This stunning, hand-beaded envelope clutch features delicate blush pink sequins, crystalline glass beads, and ivory pearls carefully woven into premium satin. Comes with a hidden attachable fine chain strap.",
+      "category": "Crossbody Bags",
+      "price": 110,
+      "rating": 4.9,
+      "reviewCount": 22,
+      "imageUrl": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&auto=format&fit=crop&q=80",
+      "isBestSeller": true,
+      "isNewArrival": true,
+      "isFeatured": true,
+      "stock": 6,
+      "colors": [
+        "Blush Sequin",
+        "Golden Dust",
+        "Midnight Sequin"
+      ],
+      "features": [
+        "Hand-sewn crystalline glass beads and sequins",
+        "Heavy satin fabric base construction",
+        "Hidden detachable 110cm metal chain belt",
+        "Beautiful inner card sleeve pocket"
+      ],
+      "reviews": []
+    }
+  ],
+  "coupons": [
+    {
+      "code": "WELCOME10",
+      "type": "percentage",
+      "value": 10,
+      "minSpend": 50,
+      "isActive": true,
+      "description": "Enjoy 10% off on your first fashion upgrade! (Min spend $50)"
+    },
+    {
+      "code": "ELEGANCE20",
+      "type": "percentage",
+      "value": 20,
+      "minSpend": 150,
+      "isActive": true,
+      "description": "Premium fashion upgrade! Double up style with 20% off over $150."
+    },
+    {
+      "code": "BOUTIQUE30",
+      "type": "fixed",
+      "value": 30,
+      "minSpend": 200,
+      "isActive": true,
+      "description": "Luxury loyalty gift! Take flat $30 off orders above $200."
+    }
+  ],
+  "users": [
+    {
+      "id": "u-admin",
+      "email": "shihabsany.ix@gmail.com",
+      "name": "Shihab Sany (Admin)",
+      "role": "admin",
+      "createdAt": "2026-05-24T09:01:21.220Z"
+    },
+    {
+      "id": "u-customer",
+      "email": "customer@elegance.com",
+      "name": "Amelia Watson",
+      "role": "customer",
+      "createdAt": "2026-05-24T09:01:21.221Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-104928",
+      "userId": "u-customer",
+      "customerName": "Amelia Watson",
+      "customerEmail": "customer@elegance.com",
+      "customerPhone": "+880 1711-223344",
+      "shippingAddress": "House 42, Road 11, Banani, Dhaka, Bangladesh",
+      "paymentMethod": "bkash",
+      "paymentStatus": "paid",
+      "orderStatus": "processing",
+      "items": [
+        {
+          "productId": "elegance-p1",
+          "productName": "Aurelia Clasp Handbag",
+          "productImage": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80",
+          "price": 240,
+          "quantity": 1,
+          "color": "Blush Pink"
+        },
+        {
+          "productId": "elegance-p9",
+          "productName": "Camille Silk Scrunchie Set",
+          "productImage": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=600&auto=format&fit=crop&q=80",
+          "price": 35,
+          "quantity": 2,
+          "color": "Assorted Pastels"
+        }
+      ],
+      "subtotal": 310,
+      "discount": 31,
+      "shipping": 10,
+      "total": 289,
+      "couponCode": "WELCOME10",
+      "createdAt": "2026-05-23T14:30:22.000Z",
+      "trackingNumber": "TRK-240523-8841",
+      "notes": "Please wrap carefully as this is a gift."
+    }
+  ],
+  "contacts": [
+    {
+      "id": "c1",
+      "name": "Laura Carter",
+      "email": "laura@gmail.com",
+      "subject": "Corporate bulk inquiry",
+      "message": "Hello! I am writing on behalf of our team regarding bulk orders of watches for our annual female leadership summit. Do you support custom embossing?",
+      "createdAt": "2026-05-24T09:01:21.221Z",
+      "isRead": false
+    }
+  ]
+}
